@@ -1092,6 +1092,9 @@
 			padding-top: 4em;
 		}
 
+		.wrapper.style2{
+			background-color: #F5F5F5;
+		}
 		.wrapper.style2 .profile {
 			margin-bottom: 2em;
 			text-align: left;
@@ -1265,7 +1268,6 @@
 		}
 		
 		.wrapper.style4 {
-			margin-bottom: 3em;
 			
 			border-bottom: 1px solid rgba(144, 144, 144, 0.25);
 		}
@@ -1275,7 +1277,7 @@
 		}
 		
 		.band-info p{
-			text-align : left;
+			text-align : justify;
 		}
 		
 		.video-thumbnail{
@@ -1285,6 +1287,25 @@
 		
 		.video-details{
 			padding: 2em 0em;
+		}
+		
+		.play-overlay{
+		   position: absolute;
+		   background: url('../images/play-icon.png');
+		   height: 50%;
+		   width: 50%;
+		   background-size:contain;
+		   background-repeat:no-repeat;
+		   top: 20%;
+		   left: 33%;
+		}
+		
+		.pos-relative{
+			position:relative;
+		}
+		
+		.vid-separator{
+			margin: 0 4%;
 		}
 		
 /* Youtube */
