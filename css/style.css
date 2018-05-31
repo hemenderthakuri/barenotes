@@ -1145,7 +1145,11 @@
 
 	#footer {
 		background: #383b43;
-		padding: 6em 0em 4em;
+		padding: 1em 0;
+	}
+	
+	#footer ul{
+		margin:0px;
 	}
 
 		#footer h2, #footer h3, #footer h4 {
@@ -1163,7 +1167,6 @@
 		}
 
 		#footer .copyright {
-			margin-top: 0.65em;
 			padding: 0;
 		}
 
@@ -1427,6 +1430,10 @@
 			text-align: right;
 		}
 		
+		.text-align-justify{
+			text-align: justify;
+		}
+		
 		.band-info p{
 			text-align : justify;
 		}
@@ -1516,6 +1523,10 @@ height: 100%;
 				}
 
 			}
+			
+	.thumbnails .inner p{
+		text-align: justify;
+	}
 
 #main {
 		padding: 4em 0 2em 0;
