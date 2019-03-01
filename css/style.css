@@ -1532,24 +1532,28 @@ height: 100%;
 		padding: 4em 0 2em 0;
 	}
 
-		@media screen and (max-width: 736px) {
+@media screen and (max-width: 736px) {
 
-			#main {
-				padding: 3em 0 1em 0;
-			}
+	#main {
+		padding: 3em 0 1em 0;
+	}
 
-		}
+}
 
-		#main .inner {
-			width: 90%;
-			max-width: 80em;
-			margin: 0 auto;
-		}
+#main .inner {
+	width: 90%;
+	max-width: 80em;
+	margin: 0 auto;
+}
 
-			@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
-				#main .inner {
-					width: 95%;
-				}
+	#main .inner {
+		width: 95%;
+	}
 
-			}
+}
+			
+.display--none{
+	display: none;
+}
