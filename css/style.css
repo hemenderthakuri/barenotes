@@ -458,6 +458,18 @@
 			text-align: center;
 			width: 3.25em;
 		}
+		
+		.icon.rounded-main {
+			background-color: #383b43;
+			border-radius: 100%;
+			color: #ffffff;
+			display: inline-block;
+			height: 80px;
+			line-height: 80px;
+			text-align: center;
+			width: 80px;
+			font-size: 50px;
+		}
 
 			.icon.rounded.big {
 				font-size: 2.5em;
@@ -510,6 +522,10 @@
 
 			.icon.rounded.fa-facebook {
 				background-color: #39599f;
+			}
+			
+			.icon.rounded.fa-youtube {
+				background-color: #d82121;
 			}
 
 			.icon.rounded.fa-google-plus {
@@ -1398,6 +1414,19 @@
 			background-color: #8747a2;
 		}
 		
+		.icon.rounded-main.fa-instagram {
+			background-color: #8747a2;
+		}
+		
+		.icon.rounded-main.fa-facebook {
+				background-color: #39599f;
+			}
+			
+		.icon.rounded-main.fa-youtube {
+				background-color: #d82121;
+		}
+			
+		
 		.profile-box{
 			padding-top: 2em !important;
 		}
@@ -1556,4 +1585,12 @@ height: 100%;
 			
 .display--none{
 	display: none;
+}
+
+.padding-top-2em{
+	padding-top: 2em;
+}
+
+.margin-bottom-0{
+	margin-bottom:0px !important;
 }
