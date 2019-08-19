@@ -525,7 +525,7 @@
 			}
 			
 			.icon.rounded.fa-youtube {
-				background-color: #d82121;
+				background-color: #FF0000;
 			}
 
 			.icon.rounded.fa-google-plus {
@@ -1411,11 +1411,11 @@
 		}
 		
 		.icon.rounded.fa-instagram {
-			background-color: #8747a2;
+			background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
 		}
 		
 		.icon.rounded-main.fa-instagram {
-			background-color: #8747a2;
+			background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
 		}
 		
 		.icon.rounded-main.fa-facebook {
@@ -1423,7 +1423,7 @@
 			}
 			
 		.icon.rounded-main.fa-youtube {
-				background-color: #d82121;
+				background-color: #FF0000;
 		}
 			
 		
@@ -1589,6 +1589,10 @@ height: 100%;
 
 .padding-top-2em{
 	padding-top: 2em;
+}
+
+.padding-left-5px{
+	padding-left: 5px;
 }
 
 .margin-bottom-0{
